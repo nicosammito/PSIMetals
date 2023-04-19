@@ -1,0 +1,26 @@
+{
+  "name": "hamibot.js",
+  "version": "0.1.3",
+  "files": [
+    "index.js",
+    "typings/**",
+    "utils/**",
+    "client/**"
+  ],
+  "description": "Hamibot.JS Framework",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Hamibot Developer Team",
+  "license": "MIT",
+  "dependencies": {
+    "joi": "^17.4.2",
+    "node-fetch": "2.6.5",
+    "ws": "^7.4.4"
+  },
+  "devDependencies": {
+    "@types/ws": "^7.4.1"
+  },
+  "bundleDependencies": false,
+  "types": "typings/index.d.ts",
+  "deprecated": false
+}

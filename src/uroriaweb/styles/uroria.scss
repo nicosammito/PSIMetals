@@ -1,0 +1,61 @@
+@font-face {
+  font-family: Poppins;
+  src: url('fonts/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: Luckiest Guy;
+  src: url('fonts/heading_font/font.ttf');
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  height: 100%;
+  scroll-behavior: smooth !important;
+}
+
+h1 {
+  color: white;
+  font-family: 'Luckiest Guy', cursive;
+  display: inline-block;
+  padding: 7.5px 20px 7.5px 20px;
+  background: none;
+  font-weight: 900;
+  position: relative;
+  margin-bottom: -0.3rem;
+  z-index: 0;
+
+  &:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    clip-path: polygon(0% 15%, 100% 0%, 95% 88%, 3% 90%);
+    background: #000006;
+  }
+
+  .mark {
+    color: #4ae4ff;
+    background: transparent;
+  }
+
+}
+
+p {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  margin: 2rem 0;
+}
+
+li {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+
